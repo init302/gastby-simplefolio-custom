@@ -28,30 +28,57 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'zizivoice.jpg',
     title: 'Happy Voice & ZiZi Voice',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.youtube.com/watch?v=Ea-0GqrWqzA',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'uzuzombie.png',
+    title: '우주좀비',
+    info: '',
+    info2: '',
+    url: 'https://www.youtube.com/watch?v=AcSPuOGmaTc',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'dora.jpg',
+    title: 'Learn with Dora',
+    info: '',
+    info2: '',
+    url: 'https://www.youtube.com/watch?v=maE2GW-tXcE',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'finalblade.jpg',
+    title: 'Final Blade',
+    info: '',
+    info2: '',
+    url: 'https://www.youtube.com/watch?v=qFXdiKKeRug&list=PLoB9krJFZxWMlbxoxYN4WRYxedXIR-fJl&index=7',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'fivestars.jpg',
+    title: '파이브스타즈 for klaytn',
+    info: '',
+    info2: '',
+    url: 'https://www.youtube.com/watch?v=v1aF864cxH0',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: '레이드 마스터즈',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.youtube.com/watch?v=DNBV1lQhR9Y',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
