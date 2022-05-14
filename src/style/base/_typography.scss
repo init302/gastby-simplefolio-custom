@@ -6,6 +6,8 @@ h1 {
 
 p,
 a {
+  // You can use \n. If you need consecutive spaces, change pre-line to pre-wrap
+  white-space: pre-line;
   font-family: 'Montserrat', sans-serif;
   font-size: $default-font-size;
 }
