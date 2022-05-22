@@ -67,7 +67,7 @@ export const projectsData = [
     img: 'fivestars.jpg',
     title: '파이브스타즈 for klaytn',
     info: '스카이피플\n2018.8 ~ 2020.9 (Unity2019.4.8)',
-    info2: '',
+    info2: '- Android/iOS/WebGL 빌드 셋팅 및 관리\n- 소환(가차) 시스템, 각종 컨텐츠\n- 아이템, 인벤토리, 도감, 이벤트\n- 상점 및 인앱결제\n- 전투 통계(미터기)\n- 전투 시뮬레이션 툴\n- 보물던전(누적데미지 전리품)\n- 인트로 영상 스트리밍 재생/자막\n\nAndroid/iOS/WebGL 플러그인\n- Firebase Analytics/Push/Auth\n- Google+ 로그인, Facebook 로그인 SDK 연동\n- Unity IAP, AVPro SDK',
     url: 'https://www.youtube.com/watch?v=v1aF864cxH0',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
