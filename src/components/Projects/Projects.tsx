@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { ReactElement, useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -49,7 +49,8 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      { url &&
+                      (<a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
@@ -57,6 +58,7 @@ const Projects = () => {
                       >
                         Youtube
                       </a>
+                      )}
 
                       {repo && (
                         <a
@@ -80,30 +82,7 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
-                        <Tilt
-                          options={{
-                            reverse: false,
-                            max: 8,
-                            perspective: 1000,
-                            scale: 1,
-                            speed: 300,
-                            transition: true,
-                            axis: null,
-                            reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
-                          <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
-                          </div>
-                        </Tilt>
-                      </a>
+                     {GetProjectImage(url, title, img)}
                     </div>
                   </Fade>
                 </Col>
@@ -114,6 +93,64 @@ const Projects = () => {
       </Container>
     </section>
   );
+
+  function GetProjectImage(url:string, title:string, img:string) : ReactElement<any, any>
+  {
+    if(url){
+      return(
+        <a
+          href={url}
+          target="_blank"
+          aria-label="Project Link"
+          rel="noopener noreferrer"
+        >
+          <Tilt
+            options={{
+              reverse: false,
+              max: 8,
+              perspective: 1000,
+              scale: 1,
+              speed: 300,
+              transition: true,
+              axis: null,
+              reset: true,
+              easing: 'cubic-bezier(.03,.98,.52,.99)',
+            }}
+          >
+            <div data-tilt className="thumbnail rounded">
+              <ProjectImg alt={title} filename={img} />
+            </div>
+          </Tilt>
+        </a>)
+    }
+    else
+    {
+      return(
+        <a
+          target="_blank"
+          aria-label="Project Link"
+          rel="noopener noreferrer"
+        >
+          <Tilt
+            options={{
+              reverse: false,
+              max: 8,
+              perspective: 1000,
+              scale: 1,
+              speed: 300,
+              transition: true,
+              axis: null,
+              reset: true,
+              easing: 'cubic-bezier(.03,.98,.52,.99)',
+            }}
+          >
+            <div data-tilt className="thumbnail rounded">
+              <ProjectImg alt={title} filename={img} />
+            </div>
+          </Tilt>
+        </a>)
+    }
+  }
 };
 
 export default Projects;
