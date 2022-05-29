@@ -56,16 +56,16 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'finalblade.jpg',
-    title: 'Final Blade',
+    title: 'Final Blade(턴제RPG)',
     info: '스카이피플\n2018.8 ~ 2020.9 (Unity5.6.5)',
-    info2: '- 국내/대만/글로벌 빌드관리, 글로벌 빌드 셋팅(Android/iOS)\n- 로그인 시스템, 계정연동\n- 결제 시스템\n-각종 컨텐츠\n- 스탯 커스터마이징 시스템(스탯 강화)\n- 비급 시스템(계정 버프)\n\nAndroid/iOS 플러그인\n- Unity IAP, Naver Plug\n- Firebase Analytics/Push/Auth\n- Firebase Fabric Crashlytics\n- Adjust, Facebook Analytics\n- Google+ 로그인, Facebook 로그인 SDK\n- Google Play Game Service, XignCode',
+    info2: '- 국내/대만/글로벌 빌드관리, 글로벌 빌드 셋팅(Android/iOS)\n- 로그인 시스템, 계정연동\n- 결제 시스템\n- 각종 컨텐츠\n- 스탯 커스터마이징 시스템(스탯 강화)\n- 비급 시스템(계정 버프)\n\nAndroid/iOS 플러그인\n- Unity IAP, Naver Plug\n- Firebase Analytics/Push/Auth\n- Firebase Fabric Crashlytics\n- Adjust, Facebook Analytics\n- Google+ 로그인, Facebook 로그인 SDK\n- Google Play Game Service, XignCode',
     url: 'https://www.youtube.com/watch?v=qFXdiKKeRug&list=PLoB9krJFZxWMlbxoxYN4WRYxedXIR-fJl&index=7',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'fivestars.jpg',
-    title: '파이브스타즈 for klaytn',
+    title: '파이브스타즈(턴제RPG)',
     info: '스카이피플\n2018.8 ~ 2020.9 (Unity2019.4.8)',
     info2: '- Android/iOS/WebGL 빌드 셋팅 및 관리\n- 소환(가차) 시스템, 각종 컨텐츠\n- 아이템, 인벤토리, 도감, 이벤트\n- 상점 및 인앱결제\n- 전투 통계(미터기)\n- 전투 시뮬레이션 툴\n- 보물던전(누적데미지 전리품)\n- 인트로 영상 스트리밍 재생/자막\n\nAndroid/iOS/WebGL 플러그인\n- Firebase Analytics/Push/Auth\n- Google+ 로그인, Facebook 로그인 SDK 연동\n- Unity IAP, AVPro SDK',
     url: 'https://www.youtube.com/watch?v=v1aF864cxH0',
@@ -74,10 +74,19 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'raidmasters.png',
-    title: '레이드 마스터즈',
-    info: '',
-    info2: '',
+    title: '레이드 마스터즈(MORPG)',
+    info: '슈퍼캣\n2020.9 ~ 2021.9 (Unity2018.4.12f)',
+    info2: '- 빌드/업데이트/점검 관리\n- 구글/애플 출시 관리\n- 젠킨스 iOS, nProtect(잉카) iOS\n- DB튜닝, 인덱싱\n- 운영툴\n- UA(게임로그, 인앱광고), 일본 스베테 협업\n\n게임 컨텐츠(서버 & 클라)\n- 가방/아이템, 강화/내구도 복구, 랭킹\n- 공지/이벤트, 도감, 제작, 매칭 시스템\n- 아이템/이벤트 버프, 오픈필드(UI), 파티, 스킬\n- 전투 추가기능 등\n\nAndroid/iOS 플러그인\n- Firebase Analytics/Push/Auth\n- Facebook Analy, Appsflyer\n- Tapjoy, Google Ads 광고\n- GPGS, Facebook 로그인',
     url: 'https://www.youtube.com/watch?v=DNBV1lQhR9Y',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'hwanse.jpg',
+    title: '환세취호전(MMORPG)',
+    info: '슈퍼캣 RPG\n2021.9 ~ (Unity2021)',
+    info2: '- Assetbundle -> Addressable 마이그레이션\n- Android/Window 빌드 셋팅\n- 플레이어/몬스터 AI\n- 맵툴, Astar Viewer',
+    url: '',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
