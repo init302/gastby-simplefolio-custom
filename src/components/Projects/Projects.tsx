@@ -82,7 +82,30 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                     {GetProjectImage(url, title, img)}
+                      <a
+                        href={url}
+                        target="_blank"
+                        aria-label="Project Link"
+                        rel="noopener noreferrer"
+                      >
+                        <Tilt
+                          options={{
+                            reverse: false,
+                            max: 8,
+                            perspective: 1000,
+                            scale: 1,
+                            speed: 300,
+                            transition: true,
+                            axis: null,
+                            reset: true,
+                            easing: 'cubic-bezier(.03,.98,.52,.99)',
+                          }}
+                        >
+                          <div data-tilt className="thumbnail rounded">
+                            <ProjectImg alt={title} filename={img} />
+                          </div>
+                        </Tilt>
+                      </a>
                     </div>
                   </Fade>
                 </Col>
@@ -94,63 +117,9 @@ const Projects = () => {
     </section>
   );
 
-  function GetProjectImage(url:string, title:string, img:string) : ReactElement<any, any>
-  {
-    if(url){
-      return(
-        <a
-          href={url}
-          target="_blank"
-          aria-label="Project Link"
-          rel="noopener noreferrer"
-        >
-          <Tilt
-            options={{
-              reverse: false,
-              max: 8,
-              perspective: 1000,
-              scale: 1,
-              speed: 300,
-              transition: true,
-              axis: null,
-              reset: true,
-              easing: 'cubic-bezier(.03,.98,.52,.99)',
-            }}
-          >
-            <div data-tilt className="thumbnail rounded">
-              <ProjectImg alt={title} filename={img} />
-            </div>
-          </Tilt>
-        </a>)
-    }
-    else
-    {
-      return(
-        <a
-          target="_blank"
-          aria-label="Project Link"
-          rel="noopener noreferrer"
-        >
-          <Tilt
-            options={{
-              reverse: false,
-              max: 8,
-              perspective: 1000,
-              scale: 1,
-              speed: 300,
-              transition: true,
-              axis: null,
-              reset: true,
-              easing: 'cubic-bezier(.03,.98,.52,.99)',
-            }}
-          >
-            <div data-tilt className="thumbnail rounded">
-              <ProjectImg alt={title} filename={img} />
-            </div>
-          </Tilt>
-        </a>)
-    }
-  }
+  // function GetProjectImage(url:string, title:string, img:string) : ReactElement<any, any>
+  // {
+  // }
 };
 
 export default Projects;
