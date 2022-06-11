@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne: 'Unity 7년차 프로그래머',
+  paragraphTwo: 'Unity에 국한되지 않는 서버와 웹에 관심이 있어 학습 중',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
