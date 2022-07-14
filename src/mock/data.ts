@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: '',
-  paragraphTwo: '',
+  paragraphOne: '이것저것 관심이 많은 개발자. 개인프로젝트로는\n- 카카오채널 자동 응답 Python(지금은 사라짐)\n- 코인원 Python API로 자동 매도\n- 디아2 우버디아 매크로',
+  paragraphTwo: '요즘엔 React, TypeScript, Node.js에 관심이 있음.',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
