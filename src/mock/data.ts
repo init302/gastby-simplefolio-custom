@@ -84,7 +84,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'hwanse.jpg',
     title: '환세취호전(MMORPG)',
-    info: '슈퍼캣 RPG\n2021.9 ~ (Unity2021)',
+    info: '슈퍼캣 RPG\n2021.9 ~ 2023.12(Unity2021)',
     info2: '- Assetbundle -> Addressable 마이그레이션\n- Android/Window 빌드 셋팅\n- 플레이어/몬스터 AI\n- 맵툴, Astar Viewer',
     //url: '',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
