@@ -84,9 +84,36 @@ export const projectsData = [
     id: nanoid(),
     img: 'hwanse.jpg',
     title: '환세취호전(MMORPG)',
-    info: '슈퍼캣 RPG\n2021.9 ~ 2023.12(Unity2021)',
+    info: '슈퍼캣 RPG\n2021.9 ~ 2022.12(Unity2021)',
     info2: '- Assetbundle -> Addressable 마이그레이션\n- Android/Window 빌드 셋팅\n- 플레이어/몬스터 AI\n- 맵툴, Astar Viewer',
     //url: '',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'samsung.png',
+    title: '메타버스 프로젝트',
+    info: '2022.12 ~ 2023.3(Unity2021)',
+    info2: '- 삼성생명 메타버스 프로젝트\n- 경북도청 메타버스 프로젝트',
+    //url: '',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ar.png',
+    title: '한국기술대학교 온라인 강의',
+    info: '2023.8 ~ 2023.12(Unity2022)',
+    info2: '- AR/VR 추정 기술 개발(자세 추정) 과정 강의 촬영 12회차\n- 증강 현실 콘텐츠 제작(이미지 인식, 얼굴 인식, 위치 기반 게임) 과정 강의 촬영 12회차',
+    //url: 'https://www.step.or.kr/',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'sparta.png',
+    title: '스파르타 Unity 트랙 튜터',
+    info: '팀스파르타(주)\n2023.8 ~ 2024.5(Unity2022)',
+    info2: '- 온라인 강의\n- 질문 답변\n- 과제 피드백\n- 모의 면접\netc.',
+    url: 'https://www.youtube.com/watch?v=JLKETuTRmNA',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
