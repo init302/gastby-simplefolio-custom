@@ -18,8 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: '이것저것 관심이 많은 개발자. 개인프로젝트로는\n- 카카오채널 자동 응답 Python(지금은 사라짐)\n- 코인원 Python API로 자동 매도\n- 디아2 우버디아 매크로',
-  paragraphTwo: '',
+  paragraphOne: '이것저것 관심이 많은 개발자.',
+  paragraphTwo: '개인프로젝트\n- 카카오채널 자동 응답 Python(지금은 사라짐)\n- 코인원 Python API로 자동 매도\n- 디아2 우버디아 매크로',
   paragraphThree: '',
   //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -118,7 +118,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'sparta.png',
+    img: 'jangan.png',
     title: '장안대학교 겸임조교수',
     info: '장안대학교\n2024.9 ~',
     info2: '- 유니티게임제작기초\n- 유니티게임제작응용\n- 유니티게임제작실무\n- 유니티네트워크프로그래밍',
