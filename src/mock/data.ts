@@ -119,7 +119,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'jangan.png',
-    title: '장안대학교 게임콘텐츠과 겸임조교수',
+    title: '장안대학교 게임콘텐츠과\n겸임조교수',
     info: '장안대학교\n2024.9 ~',
     info2: '- 유니티게임제작기초\n- 유니티게임제작응용\n- 유니티게임제작실무\n- 유니티네트워크프로그래밍',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
