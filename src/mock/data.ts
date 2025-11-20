@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: '이것저것 관심이 많은 개발자. 개인프로젝트로는\n- 카카오채널 자동 응답 Python(지금은 사라짐)\n- 코인원 Python API로 자동 매도\n- 디아2 우버디아 매크로',
-  paragraphTwo: '요즘엔 React, TypeScript, Node.js에 관심이 있음.',
+  //paragraphTwo: '요즘엔 React, TypeScript, Node.js에 관심이 있음.',
   paragraphThree: '',
   //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
@@ -77,7 +77,7 @@ export const projectsData = [
     title: '레이드 마스터즈(MORPG)',
     info: '슈퍼캣\n2020.9 ~ 2021.9 (Unity2018.4.12f)',
     info2: '- 빌드/업데이트/점검 관리\n- 구글/애플 출시 관리\n- 젠킨스 iOS, nProtect(잉카) iOS\n- DB튜닝, 인덱싱\n- 운영툴\n- UA(게임로그, 인앱광고), 일본 스베테 협업\n\n게임 컨텐츠(서버 & 클라)\n- 가방/아이템, 강화/내구도 복구, 랭킹\n- 공지/이벤트, 도감, 제작, 매칭 시스템\n- 아이템/이벤트 버프, 오픈필드(UI), 파티, 스킬\n- 전투 추가기능 등\n\nAndroid/iOS 플러그인\n- Firebase Analytics/Push/Auth\n- Facebook Analy, Appsflyer\n- Tapjoy, Google Ads 광고\n- GPGS, Facebook 로그인',
-    url: 'https://www.youtube.com/watch?v=DNBV1lQhR9Y',
+    url: 'https://www.youtube.com/watch?v=BSSuJrKahDQ',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
@@ -111,9 +111,17 @@ export const projectsData = [
     id: nanoid(),
     img: 'sparta.png',
     title: '스파르타 Unity 트랙 튜터',
-    info: '팀스파르타(주)\n2023.8 ~ 2024.5(Unity2022)',
+    info: '팀스파르타(주)\n2023.8 ~ 2025.11(Unity2022)',
     info2: '- 온라인 강의\n- 질문 답변\n- 과제 피드백\n- 모의 면접\netc.',
     url: 'https://www.youtube.com/watch?v=JLKETuTRmNA',
+    //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'jangan.png',
+    title: '장안대학교 겸임조교수',
+    info: '장안대학교\n2024.9 ~',
+    info2: '- 유니티게임제작기초\n- 유니티게임제작응용\n- 유니티게임제작실무\n- 유니티네트워크프로그래밍',
     //repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
