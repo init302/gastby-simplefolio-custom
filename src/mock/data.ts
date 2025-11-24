@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: '이것저것 관심이 많은 개발자.',
-  paragraphTwo: '개인프로젝트\n- 카카오채널 자동 응답 Python(지금은 사라짐)\n- 코인원 Python API로 자동 매도\n- 디아2 우버디아 매크로',
+  paragraphTwo: '개인프로젝트\n- 카카오채널 자동 응답 Python(서비스 종료)\n- 코인원 Python API로 자동 매도\n- 디아2 우버디아 매크로',
   paragraphThree: '',
   //resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
